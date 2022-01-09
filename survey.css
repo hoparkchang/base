@@ -1,0 +1,23 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+body {
+  font-family: 'Jeju Hallasan', cursive;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  background-color: cadetblue;
+}
+
+p {
+  color: blue;
+  font-family: 'Jeju Gothic', sans-serif;
+}
