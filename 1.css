@@ -5,6 +5,22 @@ body {
   background-color: aliceblue;
   font-family: 'Jeju Hallasan', cursive;
 }
+header {
+  background-color: cadetblue;
+}
+
+nav {
+  background-color: chartreuse;
+  right: 50px;
+}
+
+section {
+  background-color: cornflowerblue;
+}
+
+footer {
+  background-color: darkkhaki;
+}
 
 h1 {
   color: brown;
