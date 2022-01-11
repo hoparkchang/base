@@ -5,12 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script>
+    function over(obj) {
+      obj.src = "C:\Users\EX\Desktop\base\js\i.jpg"
+    }
+    function out(obj) {
+      obj.src = "C:\Users\EX\Desktop\base\js\s.jpg"
+    }
+  </script>
 </head>
 <body>
   <h3>마우스 올려보세요</h3>
   <hr>
-  <img src="" alt=""
-    onmouseover="this.src=''"
-    onmouseout=>
+  <img src="i.jpg" alt="이미지"
+  onmouseover="over(this)"
+  onmouseout="out(this)">  
 </body>
 </html>
